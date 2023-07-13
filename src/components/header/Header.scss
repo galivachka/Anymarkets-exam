@@ -1,0 +1,112 @@
+.main-header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.site-header {
+  width: 93.6%;
+  height: 70px;
+  background: #fff;
+  padding: 20px 58px 20px 35px;
+}
+.site-header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__btn {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  outline: none;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: #f7f7ff;
+  cursor: pointer;
+  color: #212121;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 62%;
+}
+.site-header__content-block {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    color: #212121;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+.site-header__content {
+  display: flex;
+  h3 {
+    color: #b5b5c3;
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+}
+.aside {
+  width: 87px;
+  // height: 768px;
+  height: 1000px;
+  background: #5b5ce2;
+  box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.aside__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.aside__item {
+  cursor: pointer;
+}
+.aside__item:nth-child(1) {
+  width: 49px;
+  height: 32px;
+  margin-top: 30px;
+}
+.aside__item:nth-child(2) img {
+  width: 20px;
+  height: 20px;
+}
+.aside__item:nth-child(2) {
+  flex-shrink: 0;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 38px;
+  background: #6c6de5;
+  &:hover {
+    transition: 0.3s;
+    background: #5b5ce2;
+  }
+}
+.aside__item:nth-child(3) img {
+  width: 20px;
+  height: 20px;
+}
+.aside__item:nth-child(3) {
+  padding: 15px;
+  margin-top: 15px;
+  &:hover {
+    transition: 0.3s;
+    background: #6c6de5;
+    border-radius: 6px;
+  }
+}
+.aside__item:nth-child(4) img {
+  width: 17px;
+  height: 17px;
+}
+.aside__item:nth-child(4) {
+  padding: 15px;
+  &:hover {
+    transition: 0.3s;
+    background: #6c6de5;
+    border-radius: 6px;
+  }
+}

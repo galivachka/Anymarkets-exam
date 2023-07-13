@@ -1,0 +1,73 @@
+.add {
+    margin-top: -970px;
+    margin-left: -27px;
+  }
+  .add__container {
+    position: absolute;
+    right: 0;
+    left: 97px;
+    padding: 40px 48px 100px 40px;
+    margin-top: -970px;
+  }
+  .add-block {
+    margin-top: 40px;
+    border-radius: 12px;
+    background: rgb(197, 196, 196);
+    padding: 30px 25px 0 24px;
+    height: 634px;
+    // height: 820px;
+  }
+
+  // .add2 {
+  //   margin-top: -570px;
+  //   margin-left: -27px;
+  // }
+  .add__container2 {
+    position: absolute;
+    right: 0;
+    left: 97px;
+    padding: 40px 48px 100px 40px;
+    margin-top: 200px;
+    margin-left: -97px;
+  }
+  
+  .add-block2 {
+    // margin-top: 20px;
+    border-radius: 12px;
+    background: rgb(204, 204, 204);
+    padding: 30px 25px 0 24px;
+    height: 434px;
+    // height: 820px;
+  }
+  .input-name{
+    width: 764px;
+height: 44px;
+border: none;
+border-radius: 4px;
+  }
+  input{
+    border: none; 
+    border-radius: 4px;
+    outline: none;
+  }
+  .first-inp{
+    margin-top: 10px;
+    width: 362px;
+height: 44px;
+  }
+  .about{
+    width: 764px;
+height: 110px;
+  }
+  .weight{
+    width: 228px;
+height: 44px;
+  }
+  .lastt-inp{
+    display: flex;
+    gap: 15px;
+  }
+  .latest-inp{
+    display: block;
+    align-items: center;
+  }

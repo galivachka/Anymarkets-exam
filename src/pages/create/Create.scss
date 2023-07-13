@@ -1,0 +1,50 @@
+.create {
+    margin-top: -900px;
+    margin-left: -27px;
+  }
+  .create__container {
+    position: absolute;
+    right: 0;
+    left: 97px;
+    padding: 40px 48px 100px 40px;
+  }
+  .create__block {
+    border-radius: 12px;
+    background: #fff;
+    padding: 30px 25px 0 24px;
+    // height: 548px;
+    height: 820px;
+  }
+  .middle-box{
+    background-color: #fff;
+    width: 1179px;
+    height: 548px;
+    margin-top: 50px;
+    margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 25px;
+  }
+  
+  .add-button{
+    margin-top: 30px;
+    color: #eee;
+    width: 223px;
+    height: 48px;
+    border-radius: 6px;
+background: #1BC58D;
+border: none;
+  }
+  .add-button:hover{
+    margin-top: 30px;
+    color: #eee;
+    width: 223px;
+    height: 48px;
+    border-radius: 6px;
+background: #5B5CE2;
+border: #eee;
+transition: 1s ease;
+cursor: pointer;
+  }
